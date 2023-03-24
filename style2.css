@@ -1,0 +1,109 @@
+body
+{
+    background-color: yellow;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+.Num
+{
+    font-size: large;
+    font-weight: bold;
+}
+h1
+{
+    text-align: center;
+}
+.Row
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 10px; */
+    padding: 20px;
+}
+.Box
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(144, 198, 51);
+}
+.One
+{
+    transition: all 3s linear;
+}
+.One:hover
+{
+    direction: ltr;
+    width: 300px;
+}
+.Two
+{
+    transition: all 3s linear;
+}
+.Two:hover
+{
+    direction: ltr;
+    width: 200px;
+    height: 280px;
+}
+.Three
+{
+    transition: all 3s linear;
+}
+.Three:hover
+{
+    direction: ltr;
+    width: 300px;
+}
+.Four
+{
+    transition: all 3s ease;
+}
+.Four:hover
+{
+    direction: ltr;
+    width: 300px;
+}
+.Five
+{
+    transition: all 3s ease-in;
+}
+.Five:hover
+{
+    direction: ltr;
+    width: 300px;
+}
+.Six
+{
+    transition: all 3s ease-out;
+}
+.Six:hover
+{
+    direction: ltr;
+    width: 300px;
+}
+.Seven
+{
+    transition: all 3s ease-in-out;
+}
+.Seven:hover
+{
+    direction: ltr;
+    width: 300px;
+}
+a
+{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+
+}

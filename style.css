@@ -1,0 +1,158 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+} */
+body
+{
+    background-color: yellow;
+}
+h1
+{
+    text-align: center;
+    margin: 0;
+
+}
+.num
+{
+    font-size: large;
+    font-weight: bold;
+    /* display: flex;
+    justify-content: end; */
+}
+.Row
+{
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+    padding: 20px;
+}
+.Box1
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(81, 137, 145);
+    animation: First 4s infinite alternate;
+    padding: 10px;
+    margin: 20px;
+}
+@keyframes First
+{
+    0%
+    {
+        transform:skewX(30deg)
+    }
+    100%
+    {
+        transform:skewX(-30deg)
+    }
+}
+.Box2
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(160, 160, 160);
+    animation: Second 4s infinite alternate;
+    padding: 10px;
+    margin: 20px;
+}
+@keyframes Second
+{
+    0%
+    {
+        transform:skewY(30deg)
+    }
+    100%
+    {
+        transform:skewY(-30deg)
+    }
+}
+.Box3
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(81, 137, 145);
+    animation: Three 2s infinite ;
+    padding: 10px;
+    margin: 20px;
+}
+@keyframes Three
+{
+    0%
+    {
+        transform:rotate(90deg)
+    }
+    100%
+    {
+        transform:rotate(360deg)
+    }
+}
+.Box4
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(160, 160, 160);
+    animation: four 2s infinite alternate;
+    padding: 10px;
+    margin: 20px;
+}
+@keyframes four
+{
+    0%
+    {
+        transform:scaleY(0.5)
+    }
+  
+}
+.Box5
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(155, 72, 55);
+    animation: five 2s infinite alternate;
+    padding: 10px;
+    margin: 20px; 
+}
+@keyframes five
+{
+    0%
+    {
+        transform:scaleX(0.5)
+    }
+}
+    .Box6
+    {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(98, 170, 78);
+    border:3px solid darkgreen ;
+    animation: six 4s infinite alternate;
+    padding: 10px;
+    margin: 20px;
+
+    }
+@keyframes six
+{
+    0%
+    {
+        transform:rotate(0deg)
+    }
+    50%
+    {
+        transform:rotate(100deg)
+    }
+    100%
+    {
+        transform:rotate(0deg)
+
+    }
+}
+a
+{
+    display:flex;
+    justify-content: center;
+    /* font-size: larger;
+    font-weight:bold ; */
+}
+
+
